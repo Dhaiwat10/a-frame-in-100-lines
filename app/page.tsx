@@ -1,7 +1,7 @@
 import { getFrameMetadata } from '@coinbase/onchainkit';
 import type { Metadata } from 'next';
 
-const NEXT_PUBLIC_URL = 'https://zizzamia.xyz';
+const NEXT_PUBLIC_URL = 'https://a-frame-in-100-lines-theta.vercel.app/';
 
 const frameMetadata = getFrameMetadata({
   buttons: [
@@ -14,10 +14,10 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
+  title: 'test frame',
   description: 'LFG',
   openGraph: {
-    title: 'zizzamia.xyz',
+    title: 'test frame',
     description: 'LFG',
     images: [`${NEXT_PUBLIC_URL}/park-1.png`],
   },
